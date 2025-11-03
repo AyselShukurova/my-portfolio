@@ -1,0 +1,92 @@
+.experience-container {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  padding: 20px;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-left: 6px solid #4a90e2;
+  cursor: pointer;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  background: linear-gradient(90deg, #4a90e2 0%, #357ABD 100%);
+  color: white;
+}
+
+.experience-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.company {
+  font-weight: 500;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.date {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.experience-content {
+  padding: 20px 25px;
+  background-color: #f9faff;
+  animation: fadeIn 0.3s ease;
+  text-align: left;
+}
+
+.location {
+  font-weight: 600;
+  color: #2e6cc8;
+  margin-bottom: 10px;
+}
+
+.experience-content ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.experience-content li {
+  margin-bottom: 8px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.active .experience-header {
+  background: linear-gradient(90deg, #2e6cc8 0%, #1d4e91 100%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
