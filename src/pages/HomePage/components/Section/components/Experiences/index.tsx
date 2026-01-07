@@ -6,6 +6,19 @@ const Experience: React.FC = () => {
 
   const experiences = [
     {
+    company: "UNIBANK",
+    role: "Front-End Developer",
+    date: "11/2025 – Present",
+    location: "Baku, Azerbaijan",
+    details: [
+      "Working as a Front-End Developer on enterprise-level banking applications.",
+      "Developing scalable and maintainable UI components using Angular.",
+      "Collaborating with cross-functional teams to deliver secure and high-performance features.",
+      "Improving application performance, accessibility, and user experience.",
+      "Actively participating in code reviews and architectural discussions."
+    ],
+  },
+    {
       company: "UNIBANK",
       role: "Front-End Developer Intern",
       date: "02/2025 – 08/2025",

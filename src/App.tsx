@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter basename="/my-portfolio">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
